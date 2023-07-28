@@ -40,11 +40,39 @@
 			<scope>test</scope>
 		</dependency>
 		
-		<!-- Lombok depdendency-->
+		<!-- Lombok dependency-->
 		<dependency>
 			<groupId>org.projectlombok</groupId>
 			<artifactId>lombok</artifactId>
 			<optional>true</optional>
+		</dependency>
+		
+		<!-- okapi dependency-->
+		<!-- https://mvnrepository.com/artifact/net.sf.okapi/okapi-core -->
+		<dependency>
+		    <groupId>net.sf.okapi</groupId>
+		    <artifactId>okapi-core</artifactId>
+		    <version>1.45.0</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/net.sf.okapi.lib/okapi-lib-merge -->
+		<dependency>
+		    <groupId>net.sf.okapi.lib</groupId>
+		    <artifactId>okapi-lib-merge</artifactId>
+		    <version>1.45.0</version>
+		</dependency>
+		
+				<!-- https://mvnrepository.com/artifact/io.springfox/springfox-swagger2 -->
+		<dependency>
+	    		<groupId>io.springfox</groupId>
+	    		<artifactId>springfox-swagger2</artifactId>
+	    		<version>2.9.2</version>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/io.springfox/springfox-swagger-ui -->
+		<dependency>
+	    		<groupId>io.springfox</groupId>
+	    		<artifactId>springfox-swagger-ui</artifactId>
+	    		<version>2.9.2</version>
 		</dependency>
 
 	</dependencies>
