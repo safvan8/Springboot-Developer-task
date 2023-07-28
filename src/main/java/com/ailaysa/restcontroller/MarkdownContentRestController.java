@@ -14,14 +14,18 @@ import com.ailaysa.exception.MarkDownException;
 import com.ailaysa.exception.MarkDownParseException;
 import com.ailaysa.service.IMarkDownService;
 
+import io.swagger.annotations.Api;
+import io.swagger.annotations.ApiOperation;
+
 /**
- * * REST Controller for handling Markdown file related requests.
+ *  REST Controller for handling Markdown file related requests.
  * 
  * @author safvan
  *
  */
 @RestController
 @RequestMapping("/api/mdcontent")
+@Api(value = "Markdown Content API",tags = "Markdown")
 public class MarkdownContentRestController {
 
 	@Autowired
@@ -41,6 +45,7 @@ public class MarkdownContentRestController {
 	 * @throws MarkDownParseException if an exception occurs while reading the
 	 *                                Markdown file.
 	 */
+	@ApiOperation("To convert a Markdown file to a String representation")
 	@PostMapping("/convert-to-string")
 	public ResponseEntity<?> getMarkdownContent(@RequestParam("markdown-sample") MultipartFile multipartFile)
 			throws IOException {
