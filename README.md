@@ -12,12 +12,6 @@ This repository contains the solutions for the Java Spring Boot technical task f
 
 ## Task 2: Markdown Content Extraction API
 
-
-### API Endpoint
-
-![image](https://github.com/safvan8/Springboot-Developer-task/assets/108913933/25bdedb0-ca95-4bf4-80bf-2f72ab6d5d74)
-
-
 ### Request
 
 Upload a markdown file (sample.md) as a multipart/form-data request.
@@ -25,6 +19,16 @@ Upload a markdown file (sample.md) as a multipart/form-data request.
 ### Response
 
 Returns the content of the uploaded markdown file as a string.
+
+### API Endpoint
+
+![image](https://github.com/safvan8/Springboot-Developer-task/assets/108913933/25bdedb0-ca95-4bf4-80bf-2f72ab6d5d74)
+
+
+
+
+![image](https://github.com/safvan8/Springboot-Developer-task/assets/108913933/258f76e5-0a3c-4335-8dd4-0ac48ada8c37)
+
 
 ## Task 3: Terminology Extraction API
 
