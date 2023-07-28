@@ -31,7 +31,7 @@ public class SwaggerDocsConfig {
 	private ApiInfo getApiInfo() {
 		Contact contact = new Contact("safvan", "www.ailaysa.com", "safvanpmcz@gmail.com");
 
-		return new ApiInfo("ailysa Rest API's", //  of the API documentation
+		return new ApiInfo("ailaysa Rest API's", //  of the API documentation
 				"Gives information about few Text processing API's", // description of the API documentation
 				"3.4.RELEASE", // Specify the version of the API documentation
 				"https://helpcenter.ailaysa.com/", // terms of services URL
