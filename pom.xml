@@ -61,7 +61,7 @@
 		    <version>1.45.0</version>
 		</dependency>
 		
-				<!-- https://mvnrepository.com/artifact/io.springfox/springfox-swagger2 -->
+		<!-- https://mvnrepository.com/artifact/io.springfox/springfox-swagger2 -->
 		<dependency>
 	    		<groupId>io.springfox</groupId>
 	    		<artifactId>springfox-swagger2</artifactId>
