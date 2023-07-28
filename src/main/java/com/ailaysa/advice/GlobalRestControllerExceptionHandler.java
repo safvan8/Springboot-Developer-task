@@ -20,7 +20,18 @@ import com.ailaysa.response.ErrorResponse;
  */
 @RestControllerAdvice
 public class GlobalRestControllerExceptionHandler {
-
+	/**
+	 * Exception handler for MarkDownException and MarkDownParseException. This
+	 * method is triggered when either of these exceptions is thrown in any REST
+	 * controller.
+	 * 
+	 * @param e the MarkDownException or MarkDownParseException that was thrown.
+	 * 
+	 * @return a ResponseEntity with an ErrorResponse containing the error details
+	 *         as the response body. The response will have HTTP status 500
+	 *         (INTERNAL_SERVER_ERROR) to indicate that an internal server error
+	 *         occurred.
+	 */
 	@ExceptionHandler(value = { MarkDownException.class, MarkDownParseException.class })
 	public ResponseEntity<ErrorResponse> handleTouristNotFoundException(MarkDownException e) {
 
