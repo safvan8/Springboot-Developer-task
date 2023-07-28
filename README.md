@@ -27,16 +27,8 @@ Returns the content of the uploaded markdown file as a string.
 
 
 
-![image](https://github.com/safvan8/Springboot-Developer-task/assets/108913933/258f76e5-0a3c-4335-8dd4-0ac48ada8c37)
-
 
 ## Task 3: Terminology Extraction API
-
-
-
-### API Endpoint
-
-![image](https://github.com/safvan8/Springboot-Developer-task/assets/108913933/5f54687e-df49-439e-9142-c9975508263a)
 
 ### Request
 
@@ -46,11 +38,15 @@ Upload a plain text file (sample.txt) as a multipart/form-data request.
 
 Returns the extracted terminology from the uploaded plain text file.
 
+### API Endpoint
+
+![image](https://github.com/safvan8/Springboot-Developer-task/assets/108913933/5f54687e-df49-439e-9142-c9975508263a)
+
+
+![image](https://github.com/safvan8/Springboot-Developer-task/assets/108913933/f4b49e7a-83a7-4d5b-a85b-a755b0e94248)
+
+
+
 ## Screenshots
 
-![Word Count API](/images/word_count_api.png)
-![Markdown Content API](/images/markdown_content_api.png)
-![Terminology Extraction API](/images/terminology_extraction_api.png)
-```
-
-In this markdown file, I've combined all the content into a single code block for easy readability. Make sure to upload the images to your repository and use the correct image URLs in the markdown file. Once you commit and push this markdown file to your GitHub repository, the images and explanations will be displayed on the repository page in a nicely formatted way.
+![image](https://github.com/safvan8/Springboot-Developer-task/assets/108913933/d9a9e996-6d78-4512-9773-8227154c80c2)
